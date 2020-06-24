@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.ui.card {
+  max-height: 90vh;
+  min-height: 90vh;
+}
+
+.ui.card, .ui.card:first-child, .ui.card:last-child {
+  margin: 3vh 5vw;
+}
+
+.ui.card > .image > img {
+  min-height: 60vh;
+  max-height: 60vh;
+}
+
+.ui.toggle.checkbox input:focus:checked ~ .box, .ui.toggle.checkbox input:focus:checked ~ label {
+  color: white !important;
+}
+
+#movieDetail {
+  background-color: white;
+  margin: 0 20vw;
+}
+
+#movieDetail > .item > .image > img {
+  height: 100%;
+}
+#movieDetail > .item > .content {
+  padding: 5vh 2vw;
+}
